@@ -1,0 +1,13 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnSave": true
+    },
+    "python.formatting.provider": "none",
+    "cSpell.words": [
+        "formar",
+        "reta",
+        "segmento",
+        "triângulo"
+    ]
+}
