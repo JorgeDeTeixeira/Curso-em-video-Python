@@ -7,7 +7,7 @@ n2 = float(input('Informe a segunda nota:'))
 media = (n1 + n2) / 2
 
 if media < 5.0:
-    print(f'com media {media:.1f} sua situação é Reprovado!')
+    print(f'com média {media:.1f} sua situação é Reprovado!')
 elif media >= 5.0 and media < 7:
     print(f'Com média {media:.1f} sua situação é Recuperação! ')
 elif media >= 7.0 and media <= 10.0:

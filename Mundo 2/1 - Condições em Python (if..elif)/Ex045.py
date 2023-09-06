@@ -20,7 +20,7 @@ if jogador == 0:
     if computador == 0:
         print('EMPATOU')
     elif computador == 1:
-        print('VOCÊ PERDEU!') 
+        print('VOCÊ PERDEU!')
     else:
         print('VOCÊ GANHOU!')
 elif jogador == 1:

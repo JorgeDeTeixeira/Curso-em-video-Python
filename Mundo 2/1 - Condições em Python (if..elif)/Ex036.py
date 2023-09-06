@@ -3,10 +3,10 @@
 valorCasa = float(input('Valor da casa R$:'))
 salarioComprador = float(input('Sálario do comprador R$:'))
 anos = int(input('Em quantos anos a casa sera paga:'))
-
 prestacao = valorCasa / (anos * 12)
 
-print(f'Para pagar uma casa de R${valorCasa:.2f} reais em {anos} anos, a prestação será de R${prestacao:.2f} reais.')
+print(
+    f'Para pagar uma casa de R${valorCasa:.2f} reais em {anos} anos, a prestação será de R${prestacao:.2f} reais.')
 
 if prestacao > salarioComprador * 30 / 100:
     print('EMPRÉSTIMO NEGADO!')
