@@ -5,7 +5,7 @@ while True:
     resp = ' '
     while resp not in 'SN':
         resp = str(
-            input('Você quer ver um número por extenso?[S/N]')).strip().upper()[0]
+            input('Você quer ver um número por extenso?[S/N]:')).strip().upper()[0]
     if resp == 'S':
         while True:
             num = int(input('Digite um número entre 0 e 20:'))
